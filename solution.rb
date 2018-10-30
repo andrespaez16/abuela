@@ -10,10 +10,11 @@ HTML
 end   
 post "/respuest" do
    if params["str"].downcase == params["str"]
-    
-         @str="Ahhh si, manzanas"
+    @str="Habla más duro mijito"
+
      elsif params["str"].upcase == params["str"]
-           @str="Habla más duro mijito"
+
+           @str="Ahhh si, manzanas"
      end
 end
  
